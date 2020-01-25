@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+/*import Test2 from "./JSX/simplesTest";  w tym samym katalogu*/
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import Garage from "./props/prop3";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+/*ReactDOM.render(<Garage/>, document.getElementById( "root")); /*Nazwa wpada do root- prop1 i prop6, prop2, prop7, prop4, prop8*/
+
+/*ReactDOM.render(App(), document.getElementById( "root")); prop5*/
+
+ReactDOM.render(<Garage brandGarage="Toyota"/>, document.getElementById( "root"));/*prop3*/
+
+
