@@ -8,7 +8,7 @@ class App extends Component {
             <Contacts contacts={this.state.contacts}/>
         )
     }
-
+// robie kolejną zmianę dla prób//
     constructor(props) {
         super(props);
         this.state = {
