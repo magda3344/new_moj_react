@@ -15,7 +15,7 @@ class App extends Component {
             contacts: []
         };
     }
-
+// dodanie wiersza 18
     componentDidMount() {
         fetch('http://jsonplaceholder.typicode.com/users')
             .then(res => res.json())
